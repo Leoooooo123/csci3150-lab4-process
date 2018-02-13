@@ -12,7 +12,8 @@ Take a note of the following code to see how does it work:
 #include <stdio.h>
 #include <unistd.h>
 #include <sys/types.h>
-#include <sys/wait.h>#include <stdlib.h>
+#include <sys/wait.h>
+#include <stdlib.h>
 
 int main(int argc,char *argv[])
 {
@@ -33,7 +34,8 @@ int main(int argc,char *argv[])
     { 
         printf("Exit NOT Normal\n"); 
     } 
-    return 0;}
+    return 0;
+}
 
 
 ```

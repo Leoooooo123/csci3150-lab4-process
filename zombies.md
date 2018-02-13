@@ -31,4 +31,4 @@ The program will run without *apparent* problems. However, if you look at the sy
 
 Zombies appear!!
 
-This is the consequence of the mishandling in the parent process- the parent ignores the `SIGCHID` signal.
+This is the consequence of the mishandling in the parent process- the parent ignores the `SIGCHLD` signal.
